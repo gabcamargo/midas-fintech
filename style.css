@@ -1,0 +1,80 @@
+body {
+    background-color: #001F3F;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-container {
+    width: 42vh;
+}
+
+.form-control {
+    background-color: #001F3F;
+    border: 1px solid #001F3F;
+    border-radius: 20px;
+    color: #E5E5E5;
+    font-size: 13px;
+}
+
+
+
+.form-control::placeholder {
+    color: #E5E5E5;
+}
+
+.forgot-password {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 20px;
+    color: #001F3F;
+    text-align: right;
+}
+
+.btn-login {
+    background-color: #FFD600;
+    color: #001F3F;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn-register {
+    color: #001F3F;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#username {
+    background-image: url("./assets/user-icon.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    padding-right: 30px;
+}
+
+#password {
+    background-image: url("./assets/password-icon.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    padding-right: 30px;
+}
+
+.btn-login,
+.btn-register,
+.forgot-password {
+    text-decoration: none;
+}
